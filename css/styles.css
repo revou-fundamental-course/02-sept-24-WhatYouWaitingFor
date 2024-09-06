@@ -1,1 +1,46 @@
 /* ini css */
+
+.main-header {
+    text-align: center;
+}
+
+.selection-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.selection-btn {
+    height: 32px;
+    border: none;
+    border-radius: 8px;
+}
+
+.bisque-color {
+    background-color: bisque;
+}
+
+.aqua-color {
+    background-color: white;
+}
+
+.luas-segitiga-header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0px;
+    background: cornflowerblue;
+    text-align: center;
+}
+
+.luas-segitiga-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.luas-segitiga-img {
+    height: 300px;
+    width: 300px;
+    background-image:s
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
