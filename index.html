@@ -61,7 +61,9 @@
     
                     <p id="result">Hasil Perhitungan</p>
     
-                    <button onclick="peringatan()">Hitung</button>
+                    <button onclick="peringatan()" class="button-luas">Hitung</button>
+                    <br>
+                    <button onclick="" class="reset-luas">Reset</button>
                 </form>
             </aside>
 
@@ -112,18 +114,10 @@
     
                     <p id="hasil">Hasil Perhitungan</p>
     
-                    <button onclick="keliling()">Hitung</button>
+                    <button onclick="keliling()" class="button-keliling">Hitung</button>
+                    <br>
+                    <button onclick="" class="reset-keliling">Reset</button>
                 </form>
-
-                <script>
-                    function keliling(){
-                    let sisiA = document.getElementById("sisi-a").value;
-                    let sisiB = document.getElementById("sisi-b").value;
-                    let sisiC = document.getElementById("sisi-c").value;
-                    let hasil = parseInt(sisiA) + parseInt(sisiB) + parseInt(sisiC);
-                    document.write('Hasilnya adalah ' + hasil)
-}
-                </script>
         </aside>
         </section>
     </main>

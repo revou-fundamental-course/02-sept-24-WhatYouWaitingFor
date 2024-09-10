@@ -107,3 +107,46 @@ input[type=number], select {
     margin-bottom: none;
    
 }
+
+.button-luas {
+    border: none;
+    border-radius: 10%;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 2% 3%;
+    margin: 10% 43%;
+    cursor: pointer;
+}
+
+
+.button-keliling {
+    border: none;
+    border-radius: 10%;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 2% 3%;
+    margin: 10% 43%;
+    cursor: pointer;
+}
+ 
+.reset-luas {
+    border: none;
+    border-radius: 15%;
+    color: white;
+    background-color: orange;
+    padding: 1% 1%;
+    text-align: center;
+    font-size: 70%;
+    cursor: pointer;
+}
+
+.reset-keliling {
+    border: none;
+    border-radius: 15%;
+    color: white;
+    background-color: orange;
+    padding: 1% 1%;
+    text-align: center;
+    font-size: 70%;
+    cursor: pointer;
+}
