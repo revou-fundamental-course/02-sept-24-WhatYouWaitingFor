@@ -4,3 +4,4 @@ function peringatan(){
     let result = parseInt(panjangAlas) + parseInt(tinggi);
     document.write('Hasilnya adalah ' + result)
 }
+
