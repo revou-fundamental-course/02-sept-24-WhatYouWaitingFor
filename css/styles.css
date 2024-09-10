@@ -76,3 +76,29 @@ input[type=number], select {
   .main-content>aside {
     flex: 1;
   }
+
+  .keliling-segitiga-header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0px;
+    background: cornflowerblue;
+    text-align: center;
+}
+
+.keliling-segitiga-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.keliling-segitiga-img {
+    height: 300px;
+    width: 300px;
+    background-image: url(https://asset.kompas.com/crops/ZwOr6ZrEtAtid5uZmYhDFijYPa4=/175x161:1573x1094/750x500/data/photo/2022/03/09/62288763c6d64.png);
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+.keliling-segitiga-form-header {
+    text-align: center;
+}
