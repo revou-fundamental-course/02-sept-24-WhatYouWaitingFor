@@ -31,8 +31,14 @@ function keliling() {
 }
 
 /* memasukan fungsi hapus atau reset perhitungan */
-function resetluas() {
+function resetLuas() {
     document.getElementById('panjang-alas').innerHTML = '';
     document.getElementById('tinggi').innerHTML = '';
-    document.getElementById('result').innerHTML = '';
+    document.getElementById('result').textContent = "";
+}
+
+function resetKeliling() {
+    document.getElementById('sisi-a').innerHTML = '';
+    document.getElementById('sisi-b').innerHTML = '';
+    document.getElementById('hasil').textContent = "";
 }

@@ -46,7 +46,7 @@
     
                 <hr />
 
-                <form id="form-luas">
+                <form>
                     <header class="luas-segitiga-form-header">
                         <h1>Hitung Luas Segitiga</h1>
                     </header>
@@ -60,19 +60,16 @@
                         <label for="tinggi">Tinggi:</label>
                         <input id="tinggi" name="tinggi" type="number" />
                     </div>
+
                     <p>Hasil Perhitungan</p>
-                </form>
+                    <p id="result"></p>
 
-            <p id="result"></p>
-
-                <form>    
                     <button type="button" onclick="luas()" class="button-luas">Hitung</button>
-                    <button type="reset" onclick="resetLuas()" class="reset-luas">Reset</button>  
+                    <button type="reset" onclick="resetLuas()" class="reset-luas">Reset</button> 
                 </form>
-
-
             </aside>
-                                        <!--KELILING SEGITIGA-->
+                         
+                                            <!--KELILING SEGITIGA-->
             <aside>
                  <header>
                    <h1 class="keliling-segitiga-header">Keliling Segitiga</h1>
@@ -118,11 +115,11 @@
                         <input id="sisi-c" name="sisi-c" type="number" />
                     </div>
     
-                    <p>Hasil Perhitungan
-                        <p id="hasil">
-                    <button onclick="keliling()" class="button-keliling">Hitung</button>
-                    <button onclick="resetKeliling()" class="reset-keliling">Reset</button>  
+                    <p>Hasil Perhitungan</p>
+                    <p id="hasil"></p>
 
+                    <button type="button" onclick="keliling()" class="button-keliling">Hitung</button>
+                    <button type="reset" onclick="resetKeliling()" class="reset-keliling">Reset</button>  
                 </form>
         </aside>
         </section>
