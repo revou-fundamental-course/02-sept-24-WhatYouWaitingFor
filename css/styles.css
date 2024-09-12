@@ -9,6 +9,7 @@
     flex-direction: column;
 }
 
+/* input jawaban */
 .selection-btn {
     height: 32px;
     border: none;
@@ -105,11 +106,17 @@ input[type=number], select {
     text-align: center;
 }
 
+/* rumus luas */
 .rumus-luas {
-    margin-bottom: none;
-   
+    text-align: center;
 }
 
+/* rumus keliling */
+.rumus-keliling {
+    text-align: center;
+}
+
+/* button untuk menghitung luas & keliling segitiga */
 .button-luas {
     border: none;
     border-radius: 10%;
@@ -130,7 +137,8 @@ input[type=number], select {
     margin: 10% 43%;
     cursor: pointer;
 }
- 
+
+/* Tombol reset untuk jawaban luas & keliling segitiga */
 .reset-luas {
     border: none;
     border-radius: 15%;
@@ -153,9 +161,10 @@ input[type=number], select {
     cursor: pointer;
 }
 
-
+/* untuk responsive */
 @media only screen and (max-width: 480px) {
     .main-content {
         flex-direction: column;
     }
 }
+
