@@ -63,24 +63,25 @@
 
 
 
-input[type=number], select {
+input[type=number],
+select {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
+}
 
-  .main-content {
+.main-content {
     display: flex;
-  }
+}
 
-  .main-content>aside {
+.main-content>aside {
     flex: 1;
-  }
+}
 
-  .keliling-segitiga-header {
+.keliling-segitiga-header {
     padding-top: 32px;
     padding-bottom: 32px;
     margin: 0px;
@@ -167,4 +168,3 @@ input[type=number], select {
         flex-direction: column;
     }
 }
-

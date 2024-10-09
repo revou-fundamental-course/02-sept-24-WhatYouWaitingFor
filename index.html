@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,23 +10,23 @@
 
 <body>
     <header class="main-header">
-        <h1 >Welcome to Katik</h1>
+        <h1>Welcome to Katik</h1>
         <p>Hai sobat selamat datang di Katik :)</p>
     </header>
-   
+
     <main>
         <section class="selection-content">
             <button href="#" type="button" class="selection-btn bisque-color">Segitiga</button>
             <button href="#" type="button" class="selection-btn aqua-color">Jajar Genjang</button>
         </section>
-                                           
+
         <section class="main-content">
-                                         <!--LUAS SEGITIGA-->
+            <!--LUAS SEGITIGA-->
             <aside>
                 <header>
-                   <h1 class="luas-segitiga-header">Luas Segitiga</h1>
+                    <h1 class="luas-segitiga-header">Luas Segitiga</h1>
                 </header>
-    
+
                 <article class="luas-segitiga-content">
                     <div class="luas-segitiga-img"></div>
                     <p>Rumus Luas Segitiga:</p>
@@ -37,70 +38,70 @@
 
                 <article>
                     <p style="margin-bottom: 34px;">Di mana :
-                    <br>L = Luas    
-                    <br>a = Panjang Alas     
-                    <br>t = Tinggi     
+                        <br>L = Luas
+                        <br>a = Panjang Alas
+                        <br>t = Tinggi
                     </p>
                 </article>
-    
+
                 <hr />
-                                <!--input jawaban luas-->
+                <!--input jawaban luas-->
                 <form>
                     <header class="luas-segitiga-form-header">
                         <h1>Hitung Luas Segitiga</h1>
                     </header>
-    
+
                     <div class="input-wrapper">
                         <label for="panjang-alas">Panjang Alas:</label>
                         <input id="panjang-alas" name="panjang-alas" type="number" />
                     </div>
-                
+
                     <div class="input-wrapper">
                         <label for="tinggi">Tinggi:</label>
                         <input id="tinggi" name="tinggi" type="number" />
                     </div>
 
-                                        <!--hasil perhitungan luas-->
+                    <!--hasil perhitungan luas-->
                     <p>Hasil Perhitungan</p>
                     <p id="result"></p>
-                                    <!--tombol submit dan reset luas-->
+                    <!--tombol submit dan reset luas-->
 
                     <button type="button" onclick="luas()" class="button-luas">Hitung</button>
-                    <button type="reset" onclick="resetLuas()" class="reset-luas">Reset</button> 
+                    <button type="reset" onclick="resetLuas()" class="reset-luas">Reset</button>
                 </form>
             </aside>
-                         
-                                            <!--KELILING SEGITIGA-->
+
+            <!--KELILING SEGITIGA-->
             <aside>
-                 <header>
-                   <h1 class="keliling-segitiga-header">Keliling Segitiga</h1>
-                 </header>
-    
+                <header>
+                    <h1 class="keliling-segitiga-header">Keliling Segitiga</h1>
+                </header>
+
                 <article class="keliling-segitiga-content">
                     <div class="keliling-segitiga-img"></div>
                     <p>Rumus Keliling Segitiga:</p>
                 </article>
 
                 <article></article>
-                    <h4 class="rumus-keliling">K = S1 + S2 + S3</h4>
+                <h4 class="rumus-keliling">K = S1 + S2 + S3</h4>
                 </article>
-                
+
                 <article>
                     <p>Di mana :
-                    <br>K = Keliling
-                    <br>S1 = Sisi A
-                    <br>S2 = Sisi B
-                    <br> S3 = Sisi C
+                        <br>K = Keliling
+                        <br>S1 = Sisi A
+                        <br>S2 = Sisi B
+                        <br> S3 = Sisi C
                     </p>
                 </article>
 
                 <hr />
-                                         <!--input jawaban keliling-->
+                <!--input jawaban keliling-->
                 <form>
                     <header class="keliling-segitiga-form-header">
                         <h1>Hitung keliling Segitiga</h1>
                     </header>
-    
+
                     <div class="input-wrapper">
                         <label for="sisi-a">S1:</label>
                         <input id="sisi-a" name="sisi-a" type="number" />
@@ -115,16 +116,16 @@
                         <label for="sisi-c">S3:</label>
                         <input id="sisi-c" name="sisi-c" type="number" />
                     </div>
-                    
-                                    <!--hasil perhitungan keiling-->
+
+                    <!--hasil perhitungan keiling-->
                     <p>Hasil Perhitungan</p>
                     <p id="hasil"></p>
-                                        <!--tombol submit dan reset keliling-->
+                    <!--tombol submit dan reset keliling-->
 
                     <button type="button" onclick="keliling()" class="button-keliling">Hitung</button>
-                    <button type="reset" onclick="resetKeliling()" class="reset-keliling">Reset</button>  
+                    <button type="reset" onclick="resetKeliling()" class="reset-keliling">Reset</button>
                 </form>
-        </aside>
+            </aside>
         </section>
     </main>
 

@@ -14,13 +14,13 @@ function luas() {
 }
 
 
-    /* memasukan fungsi logika perhitungan keliling segitiga */
+/* memasukan fungsi logika perhitungan keliling segitiga */
 function keliling() {
     const sisiA = parseFloat(document.getElementById('sisi-a').value);
     const sisiB = parseFloat(document.getElementById('sisi-b').value);
     const sisiC = parseFloat(document.getElementById('sisi-c').value);
 
-    if ( isNaN(sisiA) || isNaN(sisiB) || isNaN(sisiC)) {
+    if (isNaN(sisiA) || isNaN(sisiB) || isNaN(sisiC)) {
         alert('Harap masukkan semua nilai dengan benar.');
         return;
     }
